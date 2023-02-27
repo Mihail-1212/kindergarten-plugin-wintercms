@@ -1,0 +1,15 @@
+departament:
+    label: 'Departament'
+    deferredBinding: true
+    view:
+        list: $/militarymi/kindergarten/models/departament/columns.yaml
+        form: $/militarymi/kindergarten/models/departament/fields_personal.yaml
+        toolbarButtons: link|unlink
+        
+job_position:
+    label: 'Job position'
+    deferredBinding: true
+    view:
+        list: $/militarymi/kindergarten/models/personaljobposition/columns.yaml
+        form: $/militarymi/kindergarten/models/personaljobposition/fields.yaml
+        toolbarButtons: link|unlink

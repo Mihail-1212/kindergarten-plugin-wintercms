@@ -1,0 +1,69 @@
+fields:
+    name:
+        label: 'militarymi.kindergarten::lang.departament.name.title'
+        span: full
+        placeholder: 'militarymi.kindergarten::lang.departament.name.placeholder'
+        disabled: 0
+        hidden: 0
+        required: 1
+        type: text
+    contact_phone:
+        label: 'militarymi.kindergarten::lang.departament.contact_phone.title'
+        span: full
+        placeholder: 'militarymi.kindergarten::lang.__main__.phone_mask'
+        required: 1
+        type: text
+    is_main:
+        label: 'militarymi.kindergarten::lang.departament.is_main.title'
+        span: left
+        default: 0
+        type: checkbox
+        comment: 'militarymi.kindergarten::lang.departament.is_main.comment'
+    email:
+        label: 'militarymi.kindergarten::lang.departament.email.title'
+        span: auto
+        hidden: 0
+        required: 1
+        type: email
+        commentAbove: 'militarymi.kindergarten::lang.departament.email.comment'
+tabs:
+    fields:
+        city:
+            label: 'militarymi.kindergarten::lang.departament.city.title'
+            span: full
+            placeholder: 'militarymi.kindergarten::lang.departament.city.placeholder'
+            required: 1
+            type: text
+            tab: 'militarymi.kindergarten::lang.departament.__fields__.address'
+        street:
+            label: 'militarymi.kindergarten::lang.departament.street.title'
+            span: auto
+            placeholder: 'militarymi.kindergarten::lang.departament.street.placeholder'
+            required: 1
+            type: text
+            tab: 'militarymi.kindergarten::lang.departament.__fields__.address'
+        house:
+            label: 'militarymi.kindergarten::lang.departament.house.title'
+            span: auto
+            placeholder: 'militarymi.kindergarten::lang.departament.house.placeholder'
+            required: 1
+            type: text
+            tab: 'militarymi.kindergarten::lang.departament.__fields__.address'
+        corpus:
+            label: 'militarymi.kindergarten::lang.departament.corpus.title'
+            span: auto
+            placeholder: 'militarymi.kindergarten::lang.departament.corpus.placeholder'
+            type: text
+            tab: 'militarymi.kindergarten::lang.departament.__fields__.address'
+        postcode:
+            label: 'militarymi.kindergarten::lang.departament.postcode.title'
+            span: auto
+            placeholder: 'militarymi.kindergarten::lang.departament.postcode.placeholder'
+            required: 1
+            type: text
+            tab: 'militarymi.kindergarten::lang.departament.__fields__.address'
+        departament_photos:
+            path: departament_photos
+            span: full
+            type: partial
+            tab: 'militarymi.kindergarten::lang.departament.__fields__.images'

@@ -1,0 +1,6 @@
+columns:
+    name:
+        label: 'militarymi.kindergarten::lang.job_position.name.title'
+        type: text
+        searchable: true
+        sortable: true

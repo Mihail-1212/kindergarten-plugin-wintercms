@@ -1,0 +1,15 @@
+fields:
+    caption:
+        label: 'militarymi.kindergarten::lang.service_photo.caption.title'
+        span: full
+        type: text
+    is_main:
+        label: 'militarymi.kindergarten::lang.service_photo.is_main.title'
+        span: auto
+        type: checkbox
+        comment: 'militarymi.kindergarten::lang.service_photo.is_main.comment'
+    photo_path:
+        label: 'militarymi.kindergarten::lang.service_photo.photo_path.title'
+        span: full
+        mode: image
+        type: mediafinder

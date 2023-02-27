@@ -1,0 +1,9 @@
+columns:
+    photo_path:
+        label: 'militarymi.kindergarten::lang.service_photo.photo_path.title'
+        type: image
+    caption:
+        label: 'militarymi.kindergarten::lang.service_photo.caption.title'
+        type: text
+        searchable: true
+        sortable: true

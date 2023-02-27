@@ -1,0 +1,26 @@
+columns:
+    name:
+        label: 'militarymi.kindergarten::lang.departament.name.title'
+        type: text
+        searchable: true
+    contact_phone:
+        label: 'militarymi.kindergarten::lang.departament.contact_phone.title'
+        type: text
+        searchable: true
+    is_main:
+        label: 'militarymi.kindergarten::lang.departament.is_main.comment'
+        type: switch
+    street:
+        label: 'militarymi.kindergarten::lang.departament.street.title'
+        type: text
+        searchable: false
+    house:
+        label: 'militarymi.kindergarten::lang.departament.house.title'
+        type: text
+        searchable: false
+    postcode:
+        label: 'militarymi.kindergarten::lang.departament.postcode.title'
+        type: text
+    email:
+        label: 'militarymi.kindergarten::lang.departament.email.title'
+        type: text

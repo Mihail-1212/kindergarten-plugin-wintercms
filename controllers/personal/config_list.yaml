@@ -1,0 +1,12 @@
+list: $/militarymi/kindergarten/models/personal/columns.yaml
+modelClass: Militarymi\Kindergarten\Models\Personal
+title: Personal
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'militarymi/kindergarten/personal/update/:id'

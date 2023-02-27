@@ -1,0 +1,14 @@
+name: Service
+modelClass: Militarymi\Kindergarten\Models\Service
+form: $/militarymi/kindergarten/models/service/fields.yaml
+defaultRedirect: militarymi/kindergarten/service
+create:
+    title: 'militarymi.kindergarten::lang.__main__.service.create__title'
+    redirect: 'militarymi/kindergarten/service/update/:id'
+    redirectClose: militarymi/kindergarten/service
+update:
+    title: 'militarymi.kindergarten::lang.__main__.service.edit__title'
+    redirect: militarymi/kindergarten/service
+    redirectClose: militarymi/kindergarten/service
+preview:
+    title: 'militarymi.kindergarten::lang.__main__.service.title'

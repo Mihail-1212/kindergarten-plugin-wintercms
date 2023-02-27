@@ -1,0 +1,9 @@
+departament_photos:
+    label: 'militarymi.kindergarten::lang.departament.__fields__.image'
+    deferredBinding: true
+    view:
+        list: $/militarymi/kindergarten/models/departamentphoto/columns.yaml
+        toolbarButtons: create|delete
+    manage:
+        form: $/militarymi/kindergarten/models/departamentphoto/fields.yaml
+        recordsPerPage: 10

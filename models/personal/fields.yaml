@@ -1,0 +1,46 @@
+fields:
+    surname:
+        label: 'militarymi.kindergarten::lang.personal.surname.title'
+        span: full
+        placeholder: 'militarymi.kindergarten::lang.personal.surname.placeholder'
+        required: 1
+        type: text
+    name:
+        label: 'militarymi.kindergarten::lang.personal.name.title'
+        span: left
+        placeholder: 'militarymi.kindergarten::lang.personal.name.placeholder'
+        required: 1
+        type: text
+    second_name:
+        label: 'militarymi.kindergarten::lang.personal.second_name.title'
+        span: right
+        placeholder: 'militarymi.kindergarten::lang.personal.second_name.placeholder'
+        type: text
+    contact_phone:
+        label: 'militarymi.kindergarten::lang.personal.contact_phone.title'
+        span: auto
+        placeholder: 'militarymi.kindergarten::lang.__main__.phone_mask'
+        type: text
+    is_management:
+        label: 'militarymi.kindergarten::lang.personal.is_management.title'
+        span: auto
+        type: checkbox
+        comment: 'militarymi.kindergarten::lang.personal.is_management.comment'
+tabs:
+    fields:
+        photo_path:
+            label: 'militarymi.kindergarten::lang.personal.photo_path.title'
+            span: full
+            mode: image
+            type: mediafinder
+            tab: 'militarymi.kindergarten::lang.personal.__fields__.image'
+        departament:
+            path: departament
+            span: full
+            type: partial
+            tab: 'militarymi.kindergarten::lang.personal.__fields__.related_fields'
+        job_position:
+            path: job_position
+            span: full
+            type: partial
+            tab: 'militarymi.kindergarten::lang.personal.__fields__.related_fields'

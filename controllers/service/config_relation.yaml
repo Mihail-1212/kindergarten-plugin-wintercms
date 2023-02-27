@@ -1,0 +1,23 @@
+service_photos:
+    label: 'militarymi.kindergarten::lang.service.__fields__.image'
+    deferredBinding: true
+    view:
+        list: $/militarymi/kindergarten/models/servicephoto/columns.yaml
+        toolbarButtons: create|delete
+    manage:
+        form: $/militarymi/kindergarten/models/servicephoto/fields.yaml
+        recordsPerPage: 10
+
+departaments:
+    label: Departaments
+    deferredBinding: true
+    view:
+        list: $/militarymi/kindergarten/models/departament/columns.yaml
+        toolbarButtons: add|remove
+
+personal:
+    label: Personal
+    deferredBinding: true
+    view:
+        list: $/militarymi/kindergarten/models/personal/columns.yaml
+        toolbarButtons: add|remove

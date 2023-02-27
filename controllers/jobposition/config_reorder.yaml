@@ -1,0 +1,4 @@
+title: JobPosition
+modelClass: Militarymi\Kindergarten\Models\PersonalJobPosition
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,28 @@
+plugin:
+    name: 'militarymi.kindergarten::lang.plugin.name'
+    description: 'militarymi.kindergarten::lang.plugin.description'
+    author: MilitaryMi
+    icon: wn-icon-child
+    replaces: {  }
+navigation:
+    kindergarten-menu:
+        label: 'militarymi.kindergarten::lang.__main__.title'
+        url: militarymi/kindergarten/departaments
+        icon: icon-child
+        sideMenu:
+            kindergarten-departaments-menu:
+                label: 'militarymi.kindergarten::lang.__main__.departaments.title'
+                url: militarymi/kindergarten/departaments
+                icon: icon-building-o
+            kindergarten-service-menu:
+                label: 'militarymi.kindergarten::lang.__main__.service.title'
+                url: militarymi/kindergarten/service
+                icon: icon-money
+            departaments-personal-menu:
+                label: 'militarymi.kindergarten::lang.__main__.personal.title'
+                url: militarymi/kindergarten/personal
+                icon: icon-users
+            departaments-job-position-menu:
+                label: 'militarymi.kindergarten::lang.__main__.job_position.title'
+                url: militarymi/kindergarten/jobposition
+                icon: icon-bullhorn

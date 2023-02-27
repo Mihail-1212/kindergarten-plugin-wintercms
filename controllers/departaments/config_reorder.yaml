@@ -1,0 +1,4 @@
+title: Departaments
+modelClass: Militarymi\Kindergarten\Models\Departament
+toolbar:
+    buttons: reorder_toolbar

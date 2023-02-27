@@ -1,0 +1,6 @@
+fields:
+    name:
+        label: 'militarymi.kindergarten::lang.job_position.name.title'
+        span: full
+        placeholder: 'militarymi.kindergarten::lang.job_position.name.placeholder'
+        type: text

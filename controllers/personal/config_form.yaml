@@ -1,0 +1,10 @@
+name: Personal
+form: $/militarymi/kindergarten/models/personal/fields.yaml
+modelClass: Militarymi\Kindergarten\Models\Personal
+defaultRedirect: militarymi/kindergarten/personal
+create:
+    redirect: 'militarymi/kindergarten/personal/update/:id'
+    redirectClose: militarymi/kindergarten/personal
+update:
+    redirect: militarymi/kindergarten/personal
+    redirectClose: militarymi/kindergarten/personal

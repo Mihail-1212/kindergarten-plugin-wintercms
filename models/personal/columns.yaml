@@ -1,0 +1,22 @@
+columns:
+    surname:
+        label: 'militarymi.kindergarten::lang.personal.surname.title'
+        type: text
+        searchable: true
+        sortable: true
+    name:
+        label: 'militarymi.kindergarten::lang.personal.name.title'
+        type: text
+        searchable: true
+        sortable: true
+    second_name:
+        label: 'militarymi.kindergarten::lang.personal.second_name.title'
+        type: text
+        searchable: true
+        sortable: true
+    photo_path:
+        label: 'militarymi.kindergarten::lang.personal.photo_path.title'
+        type: image
+    is_management:
+        label: 'militarymi.kindergarten::lang.personal.is_management.title'
+        type: switch

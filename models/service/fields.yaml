@@ -1,0 +1,45 @@
+fields:
+    name:
+        label: 'militarymi.kindergarten::lang.service.name.title'
+        span: full
+        placeholder: 'militarymi.kindergarten::lang.service.name.placeholder'
+        type: text
+    price:
+        label: 'militarymi.kindergarten::lang.service.price.title'
+        span: auto
+        placeholder: 'militarymi.kindergarten::lang.service.price.placeholder'
+        type: number
+    duration:
+        label: 'militarymi.kindergarten::lang.service.duration.title'
+        span: auto
+        placeholder: 'militarymi.kindergarten::lang.service.duration.placeholder'
+        type: text
+    link:
+        label: 'militarymi.kindergarten::lang.service.link.title'
+        span: full
+        placeholder: 'militarymi.kindergarten::lang.service.link.placeholder'
+        type: text
+tabs:
+    fields:
+        description:
+            label: 'militarymi.kindergarten::lang.service.description.title'
+            size: large
+            span: full
+            type: richeditor
+            commentAbove: 'militarymi.kindergarten::lang.service.description.comment'
+            tab: 'militarymi.kindergarten::lang.service.__fields__.description'
+        service_photos:
+            path: service_photos
+            span: full
+            type: partial
+            tab: 'militarymi.kindergarten::lang.service.__fields__.images'
+        departaments:
+            path: departaments
+            span: full
+            type: partial
+            tab: 'militarymi.kindergarten::lang.service.__fields__.departaments'
+        personal:
+            path: personal
+            span: full
+            type: partial
+            tab: 'militarymi.kindergarten::lang.service.__fields__.personal'

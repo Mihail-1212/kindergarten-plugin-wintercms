@@ -1,0 +1,10 @@
+name: JobPosition
+form: $/militarymi/kindergarten/models/personaljobposition/fields.yaml
+modelClass: Militarymi\Kindergarten\Models\PersonalJobPosition
+defaultRedirect: militarymi/kindergarten/jobposition
+create:
+    redirect: 'militarymi/kindergarten/jobposition/update/:id'
+    redirectClose: militarymi/kindergarten/jobposition
+update:
+    redirect: militarymi/kindergarten/jobposition
+    redirectClose: militarymi/kindergarten/jobposition

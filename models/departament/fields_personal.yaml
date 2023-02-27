@@ -1,0 +1,21 @@
+fields:
+    name:
+        label: 'militarymi.kindergarten::lang.departament.name.title'
+        span: auto
+        placeholder: 'militarymi.kindergarten::lang.departament.name.placeholder'
+        disabled: 0
+        hidden: 0
+        required: 0
+        type: text
+    contact_phone:
+        label: 'militarymi.kindergarten::lang.departament.contact_phone.title'
+        span: auto
+        placeholder: 'militarymi.kindergarten::lang.__main__.phone_mask'
+        required: 0
+        type: text
+    is_main:
+        label: 'militarymi.kindergarten::lang.departament.is_main.title'
+        span: left
+        default: 0
+        type: checkbox
+        comment: 'militarymi.kindergarten::lang.departament.is_main.comment'

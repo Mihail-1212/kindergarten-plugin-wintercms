@@ -1,0 +1,4 @@
+title: Service
+modelClass: Militarymi\Kindergarten\Models\Service
+toolbar:
+    buttons: reorder_toolbar

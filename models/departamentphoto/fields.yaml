@@ -1,0 +1,18 @@
+fields:
+    photo_path:
+        label: 'militarymi.kindergarten::lang.departament_photo.photo_path.title'
+        mode: image
+        span: full
+        required: 1
+        type: mediafinder
+        commentAbove: 'militarymi.kindergarten::lang.departament_photo.photo_path.comment'
+    caption:
+        label: 'militarymi.kindergarten::lang.departament_photo.caption.title'
+        span: auto
+        placeholder: 'militarymi.kindergarten::lang.departament_photo.caption.placeholder'
+        type: text
+    description:
+        label: 'militarymi.kindergarten::lang.departament_photo.description.title'
+        span: auto
+        placeholder: 'militarymi.kindergarten::lang.departament_photo.description.placeholder'
+        type: text

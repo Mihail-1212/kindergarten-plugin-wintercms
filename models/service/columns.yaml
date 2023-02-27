@@ -1,0 +1,14 @@
+columns:
+    name:
+        label: 'militarymi.kindergarten::lang.service.name.title'
+        type: text
+        searchable: true
+        sortable: true
+    price:
+        label: 'militarymi.kindergarten::lang.service.price.title'
+        type: number
+        searchable: true
+        sortable: true
+    link:
+        label: 'militarymi.kindergarten::lang.service.link.title'
+        type: text

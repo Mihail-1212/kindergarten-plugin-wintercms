@@ -1,0 +1,14 @@
+name: Departaments
+modelClass: Militarymi\Kindergarten\Models\Departament
+form: $/militarymi/kindergarten/models/departament/fields.yaml
+defaultRedirect: militarymi/kindergarten/departaments
+create:
+    title: 'militarymi.kindergarten::lang.__main__.departaments.create__title'
+    redirect: 'militarymi/kindergarten/departaments/update/:id'
+    redirectClose: militarymi/kindergarten/departaments
+update:
+    title: 'militarymi.kindergarten::lang.__main__.departaments.edit__title'
+    redirect: militarymi/kindergarten/departaments
+    redirectClose: militarymi/kindergarten/departaments
+preview:
+    title: 'militarymi.kindergarten::lang.__main__.departaments.title'
